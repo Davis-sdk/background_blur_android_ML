@@ -34,7 +34,6 @@ public class FixAppBarLayoutBehavior extends AppBarLayout.Behavior {
     }
 
 
-
     private void stopNestedScrollIfNeeded(int dy, AppBarLayout child, View target, int type)
     {
         if(type == ViewCompat.TYPE_NON_TOUCH)
